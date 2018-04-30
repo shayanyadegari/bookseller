@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shayan.bookmarket.firstpage"
+    android:background="@drawable/bookback1"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+
+        >
+
+            <LinearLayout
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+               android:layout_gravity="center"
+              android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+              >
+
+                <Button
+                    android:textColor="#fff"
+                    android:background="#8C993344"
+                    android:id="@+id/buy_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="buy book"
+                    android:fontFamily="cursive"
+
+                    />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            >
+            <Button
+                android:textColor="#fff"
+                android:background="#8C993344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sell_button"
+                android:text="sell book"
+                android:fontFamily="cursive"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:textColor="#fff"
+                android:background="#8C993344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/about"
+                android:text="about writer"
+                android:fontFamily="cursive"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:textColor="#fff"
+                android:background="#8C993344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit"
+                android:text="exit"
+                android:fontFamily="cursive"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
